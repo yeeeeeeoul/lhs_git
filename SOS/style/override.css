@@ -23,7 +23,7 @@ body.lock {
   font-size: 48px;
   font-weight: bold;
   line-height: 64px;
-  margin-bottom: 140px;
+  padding: 20px 100px 140px 100px;
 }
 
 .cell h5 {
@@ -59,9 +59,13 @@ body.lock {
 
 @media (max-width: 700px) {
   .cell h6 {
-    font-size: 36px;
+    font-size: 28px;
     line-height: 48px;
-    margin-bottom: 88px;
+    padding: 20px 20px 88px 20px;
+  }
+  .cell h5 {
+    font-size: 60px;
+    margin-bottom: 60px;
   }
   .cell a {
     font-size: 30px;
